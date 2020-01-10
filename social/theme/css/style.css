@@ -1,0 +1,279 @@
+/* Start Global */
+
+*{
+    box-sizing: border-box
+}
+
+/* End Global */
+
+.test{border:1px solid #000}
+
+/* Start Login */
+
+.section-login-page{
+    background-image: url('../images/social.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-login{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 50px;
+    position: relative;
+    top: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.form-signup{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    position: relative;
+    top: 30px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.login-btn{
+    height: 50px;
+    border: 1px solid #3a2279;
+    background: #3a2279;
+    color: #fff;
+    font-weight: bolder
+}
+
+.signup-btn{
+    height: 50px;
+    border: 1px solid #52ce55;
+    background: #52ce55;
+    color: #fff;
+    font-weight: bolder
+}
+
+.login-btn:hover{
+    height: 50px;
+    border: 1px solid #3a2279;
+    background: #fff;
+    color: #3a2279;
+    font-weight: bolder
+}
+
+.signup-btn:hover{
+    height: 50px;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #52ce55;
+    font-weight: bolder
+}
+
+/* End Login */
+
+/* Start Navbar */
+
+.navbar-h{
+    background-color: #3a2279;
+}
+
+.navbar{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: #fff;
+}
+
+.navbar .navbar-nav > li > a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.navbar .navbar-nav > li > a:hover{
+    color: #fff;
+}
+
+.navbar .navbar-nav > li:hover{
+    background-color :#22094c
+}
+
+/* End Navbar */
+
+/* Start Home */
+
+.panel-default > .panel-heading{
+    background-color: #3a2279;
+    height: 45px
+}
+
+.panel-default > .panel-heading p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* End Home */
+
+/* Start Profile */
+
+.info span{
+    display: inline-block;
+    width: 100px
+}
+
+/* End Profile */
+
+/* Start buttons page */
+
+.fa-star{color: #ff8f00}
+.fa-heart{color: #f00}
+.fa-circle{color: #080}
+
+/* Start buttons page */
+
+/* Start Myprofile */
+
+.upload-avatar{
+    position: absolute;
+    top: 255px;
+    padding-left: 55px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.upload-avatar:hover{
+    text-decoration: none
+}
+
+/* End Myprofile */
+
+/* Start Chat */
+
+.cha{
+    overflow: auto;
+    height: 400px;
+}
+
+.chat .by-me .content{
+    background: #dcf8c6;
+    padding:5px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    margin-left:50px
+}
+
+.chat .by-other .content{
+    background: #eee;
+    padding:5px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    margin-right:50px
+}
+
+.chat .info{
+    color: #999
+}
+
+.form-sending{
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    margin-top:10px
+}
+
+.form-sending input[type="text"]{
+    width:100%;
+    border-radius: 20px;
+    border:none
+}
+
+.form-sending button{
+    border-radius: 20px;
+}
+
+/* End Chat */
+
+/* Start Home */
+
+.full-post{
+    background-color: #eee;
+    border:1px solid #ccc;
+    padding:15px;
+    margin-top: 20px
+}
+
+.full-post .comment-body{
+    background: #dfdede;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px
+}
+
+.full-post .time{
+    color: #777;;
+    font-size: 15px;
+    float: right
+}
+
+.full-post .name-comment{
+    font-size: 12px;
+    color: #777
+}
+
+.full-post .fc-hidd-vis{
+    display: none
+}
+
+.full-post .numberComments{
+    color: #777;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc
+}
+
+/* End Home */
+
+/* Start Inbox */
+
+.right-friends{
+    height: 500px;
+    overflow:auto
+}
+
+.right-friends a{
+    text-decoration: none;
+    color:#000
+}
+
+.right-friends a:hover .media{
+    background-color:#eee;
+}
+
+.right-friends .media{
+    padding:5px 10px;
+    margin:0px;
+    border-bottom:1px solid #ddd
+}
+
+.right-friends .media p{
+    margin:0
+}
+
+/* End Inbox */
+
+/* Start Our Frame Work */
+
+.margin-bottom-12{
+    margin-bottom: 12px
+}
+
+.test{
+    border: 1px solid #000
+}
+
+/* End Frame Work */
